@@ -230,11 +230,11 @@ class Cards extends StatelessWidget {
                                                             .value);
                                                     homeCtrl.addToCartSwipe();
                                                   },
-                                                  icon: Icon(
-                                                      Icons
-                                                          .add_shopping_cart_outlined,
-                                                      color: IconColor.white,
-                                                      size: 30),
+                                                  icon: Image.asset(
+                                                    IconConstants.cartAdd,
+                                                    height: 40.0,
+                                                    width: 40.0,
+                                                  ),
                                                 ),
                                                 IconButton(
                                                   onPressed: () {
@@ -258,11 +258,10 @@ class Cards extends StatelessWidget {
                                                       },
                                                     );
                                                   },
-                                                  icon: Icon(
-                                                    Icons
-                                                        .bookmark_border_rounded,
-                                                    color: IconColor.white,
-                                                    size: 30,
+                                                  icon: Image.asset(
+                                                    IconConstants.bookMark,
+                                                    height: 40.0,
+                                                    width: 40.0,
                                                   ),
                                                 ),
                                                 IconButton(
@@ -272,10 +271,11 @@ class Cards extends StatelessWidget {
                                                     Share.share(
                                                         'Check out the CASA app now');
                                                   },
-                                                  icon: Icon(
-                                                      Icons.share_rounded,
-                                                      color: IconColor.white,
-                                                      size: 30),
+                                                  icon: Image.asset(
+                                                    IconConstants.forward,
+                                                    height: 40.0,
+                                                    width: 40.0,
+                                                  ),
                                                 ),
                                               ],
                                             ),
